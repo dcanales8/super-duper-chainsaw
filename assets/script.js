@@ -123,7 +123,7 @@ var currentWeatherSection = function(cityName) {
             $("#search-input").val("");
 
             // alert user that there was an error
-            alert("We could not find the city you searched for. Try searching for a valid city.");
+            alert("This location cannot be found. Please check the spelling and try again.");
         });
 };
 
